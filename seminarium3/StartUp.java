@@ -68,6 +68,11 @@ class StartUp
 				a.testAvReciept();
 				a.testAvSale();
 
+				a.testAvCTRLChange();
+				a.testAvCTRLReg("banan");
+				a.testAvCTRLReg("morot");
+				a.testAvControlPayment(3);
+
 				a.afterAllTest();
 
 			}
